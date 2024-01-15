@@ -1,7 +1,5 @@
 import Form from '@/app/ui/invoices/edit-form';
-// default import: export default function Breadcrumbs()
 import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
-// named import: export async function fetchCustomers()
 import { fetchInvoiceById, fetchCustomers } from '@/app/lib/data';
 
 export default async function Page({ params }: { params: { id: string }}) {
